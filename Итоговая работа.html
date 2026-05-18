@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Киномир</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Киномир</div>
+            <nav>
+                <ul>
+                    <li><a href="#main">Главная</a></li>
+                    <li><a href="#catalog">Фильмы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle">💡</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="main">
+            <div class="container">
+                <h1>Лучшие фильмы последних лет</h1>
+                <p>Откройте для себя мир кинематографа</p>
+                <a href="#catalog" class="cta-button">Смотреть каталоге</a>
+            </div>
+        </section>
+
+        <section id="catalog">
+            <div class="container">
+                <h2>Наш каталог</h2>
+                <div class="movie-grid">
+                    <!-- Карточки фильмов будут добавлены динамически -->
+                </div>
+                <button id="load-more">Показать еще</button>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Свяжитесь с нами</h2>
+                <form id="contact-form">
+                    <input type="text" id="name" placeholder="Ваше имя" required>
+                    <input type="email" id="email" placeholder="Ваш email" required>
+                    <textarea id="message" placeholder="Ваше сообщение" required></textarea>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Киномир. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
